@@ -1,3 +1,6 @@
+#After your installation app fisttime make a donation link with bunq payment link.
+For example: Your device info: 44:2a:xx:xx:xx > make donation: choice amount then press generate, You get qr code or url from bunq.me/url/deviemacid
+
 Awesome Smart TV Awesome
 A curated list of awesome resources for building Smart TV apps
 
