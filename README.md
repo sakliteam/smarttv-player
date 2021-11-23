@@ -1,3 +1,5 @@
+UPDATE: Please dont use my bunq.me/ donation link generator. This is have a issue and please use paypal donation.
+
 #After your installation app fisttime make a donation link with bunq payment link.
 For example: Your device info: 44:2a:xx:xx:xx > make donation: choice amount then press generate, You get qr code or url from bunq.me/url/deviemacid
 
