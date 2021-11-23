@@ -1,3 +1,36 @@
+How to connect to your TV
+<?php
+
+include 'smartTV.php';
+
+/**
+ * Create instance of TV
+ * @param IP Address of TV
+ * (optional) @param Port of TV (default is 8080)
+**/
+$tv = new SmartTV('192.168.2.103'); // new SmartTV('192.168.2.103', 8080)
+
+/**
+ * Set pairing key (if you don't know the pairing key
+ *				    execute the method ..->displayPairingKey() and it will
+ * 				    be shown on your tv)
+ * @param Key
+
+**/
+$tv->setPairingKey(678887); // $tv->displayPairingKey();
+
+/**
+ * Authenticate to the tv
+ * @except Login fails (wrong pairing key?)
+**/
+try {
+	$tv->authenticate();
+} catch (Exception $e) {
+	die('Authentication failed, I am sorry.');,
+}
+
+
+
 # Awesome Smart TV [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 > A curated list of awesome resources for building Smart TV apps
